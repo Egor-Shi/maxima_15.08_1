@@ -1,5 +1,7 @@
 package lesson_3;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,17 +26,33 @@ public class Main {
         System.out.println(fff);*/
 
 
-        int a = 112;
-        int b = 60;
+      /*  Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+
         if (a>=50 && a<=100){
             System.out.println("Число " + a +" попадает в диапазаон");}
             else {
                 System.out.println("Число " + a +" не попадает в диапазаон");
+        }*/
+
+
+        int a = 4;
+        switch(a){
+            case (1) :
+                System.out.println("eto " + a);
+                break;
+            case (2) :
+                System.out.println("eto " + a);
+                break;
+            case (3) :
+                System.out.println("eto " + a);
+                break;
+            case (4) :
+                System.out.println("eto " + a);
+                break;
+            default :
+                System.out.println("eto xz 4to");
+                break;
         }
-if(b>=50&&b<=100){
-    System.out.println("Число " + b +" попадает в диапазаон");
-}
-else {
-    System.out.println("Число " + a +" не попадает в диапазаон");
-}
+
 }}
