@@ -4,10 +4,10 @@ public class HW_2_1 {
 
     public static void main(String[] args) {
 
-        byte a = 5;
-        byte b = 2;
-        float c = (float) a / b;
-        System.out.println(c);
+        byte rubles = 5;
+        byte kassa = 2;
+        float howRubInKas = (float) rubles / kassa;
+        System.out.println(howRubInKas);
 
     }
 }

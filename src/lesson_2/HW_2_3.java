@@ -4,14 +4,14 @@ public class HW_2_3 {
 
     public static void main(String[] args) {
 
-        int a = 9;
-        int b = 3;
-        int c = 15;
-        int e =  a / b;
-        int f = c / b;
-        double d;
-        d = (double) f / e ;
-        System.out.println(d);
+        int hungryMin = 9;
+        int SytMin = 15;
+        int kolBan = 3;
+        int vremyaNaOdinBanHun =  hungryMin / kolBan;
+        int fvremyaNaOdinBanSyt = SytMin / kolBan;
+        double raznica;
+        raznica = (double) fvremyaNaOdinBanSyt / vremyaNaOdinBanHun;
+        System.out.println(raznica);
 
     }
 }
